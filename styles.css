@@ -1,5 +1,18 @@
 body {
-    color: black;
-    text-align: center;
+    background-image: url("https://cdn.midjourney.com/1cc295d9-ae26-4e64-b567-9ce7a0a1011d/0_3.webp");
+    background-repeat: repeat;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
     margin: 0 auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 100px;
+    border: 1px dotted black;
+    border-radius: 100%;
+    box-shadow: 50px 10px 10px rgba(0, 0, 0, 0.553);
 }
